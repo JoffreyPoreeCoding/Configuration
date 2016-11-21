@@ -1,0 +1,32 @@
+{
+    "name": "jpc/configuration",
+    "description": "Easy-to-use configuration manager",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords" : [
+        "Configuration",
+        "Stack"
+    ],
+    "homepage" : "https://github.com/JoffreyPoreeCoding/Configuration",
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "*"
+    },
+    "authors": [
+        {
+            "name": "Joffrey Poree",
+            "email": "contact@joffreyporee.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JPC\\Configuration\\": "src/"
+        },
+        "psr-0": {
+            "JPC\\Configuration\\": "src/"
+        }
+    }
+}
