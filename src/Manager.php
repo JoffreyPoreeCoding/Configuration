@@ -41,7 +41,7 @@ class Manager {
     public function get($name){
         foreach ($this->stack as $config) {
             if($config->exist($name)){
-                return $config->get($config);
+                return $config->get($name);
             }
         }
         
